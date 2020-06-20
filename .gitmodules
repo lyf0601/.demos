@@ -1,0 +1,15 @@
+[submodule "NeteaseCloudMusicApi"]
+	path = NeteaseCloudMusicApi
+	url = git@github.com:Binaryify/NeteaseCloudMusicApi.git
+[submodule "ng-wyy"]
+	path = ng-wyy
+	url = https://github.com/lycHub/ng-wyy
+[submodule "angular-realworld-example-app"]
+	path = angular-realworld-example-app
+	url = git@github.com:gothinkster/angular-realworld-example-app.git
+[submodule "nest-playground"]
+	path = nest-playground
+	url = https://github.com/nestjs/typescript-starter.git
+[submodule "ngrx-playground"]
+	path = ngrx-playground
+	url = https://github.com/ngrx/platform.git
