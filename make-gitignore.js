@@ -1,7 +1,8 @@
 const fs = require('fs')
 
-// 写之前先清空 .gitignore 文件
-fs.writeFile('.gitignore', '', (err) => {
+const rootIgnore = '.idea\n.git\n'    // 根 .gitignore 列表
+// 写之前先清空 .gitignore 文件,同时写入根 .gitignore 列表
+fs.writeFile('.gitignore', rootIgnore, (err) => {
     if (err) throw err;
     console.log(`Thev .gitignore file has been cleaned!`);
 
