@@ -1,0 +1,10 @@
+<p>todolist works!</p>
+
+<input type="text"  [(ngModel)]="todoText">
+<button (click)="addItem()">add</button>
+<ul>
+  <li *ngFor="let todo of todoList$ | async; let i=index">
+    {{i + 1}}-{{todo.name}}
+    <button (click)="removeItem(i)">remove</button>
+  </li>
+</ul>
